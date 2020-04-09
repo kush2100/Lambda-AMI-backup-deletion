@@ -5,6 +5,7 @@
 # add Envirement variable in lambda function with 1)key : AWS_ACCOUNT_ID value : self 2) key : RETENTION_DAYS value: 0-365
 # Basic settings : Timeout 15 min 0 sec - Memory : 128
 ## add tags to instance key : Backup, Value : True
+# check before work on production, their is no resposiblity, if any data loss
 #==================================================================
 
 import boto3
